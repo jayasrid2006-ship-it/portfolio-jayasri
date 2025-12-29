@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jayasri D | Creative Design & Development Portfolio</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+:root{
+  --pink:#f8b6c8;
+  --light:#fde2e8;
+  --dark:#222;
+}
+
+body{
+  font-family:'Segoe UI',sans-serif;
+  background: radial-gradient(circle at top, #fff, var(--light), #f9b6c8);
+}
+
+section{padding:80px 0}
+
+/* NAVBAR */
+.navbar{
+  background:rgba(248,182,200,.95);
+}
+.navbar-brand,.nav-link{
+  font-weight:600;
+  color:#000!important;
+}
+
+/* HERO */
+.hero-card{
+  background:#fff;
+  padding:55px 40px;
+  border-radius:25px;
+  box-shadow:0 20px 40px rgba(0,0,0,.18);
+}
+
+.hero-title{
+  font-size:2.8rem;
+  font-weight:800;
+  background:linear-gradient(45deg,#ff4b7d,#ff8fa3);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+/* CARDS */
+.card{
+  border-radius:18px;
+  box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+.small-card{
+  max-width:900px;
+  margin:auto;
+}
+
+/* SKILLS */
+.skill-card{
+  padding:20px;
+  border-radius:16px;
+  text-align:center;
+  font-weight:600;
+  transition:.3s;
+}
+.skill-card:hover{
+  transform:translateY(-6px);
+}
+
+/* TECH BADGE */
+.tech-badge{
+  display:inline-block;
+  padding:6px 14px;
+  margin:5px;
+  border-radius:20px;
+  font-size:.85rem;
+  background:#ffe0e9;
+  font-weight:600;
+}
+
+/* CERTIFICATE CARD */
+.cert-card{
+  padding:18px;
+  border-radius:15px;
+  margin-bottom:15px;
+  font-weight:600;
+}
+
+/* FOOTER */
+footer{
+  background:var(--pink);
+  padding:18px;
+  text-align:center;
+  font-weight:600;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#home">Jayasri D</a>
+<div class="collapse navbar-collapse show">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+<li class="nav-item"><a class="nav-link" href="#certification">Certification</a></li>
+<li class="nav-item"><a class="nav-link" href="#projects">Project</a></li>
+<li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="text-center">
+<div class="container">
+<div class="hero-card">
+<h1 class="hero-title">Hi, I’m Jayasri D</h1>
+<p class="fw-semibold">Creative Designer & Web Developer</p>
+<p>
+I design and develop responsive, user-friendly websites with a strong focus  
+on UI/UX and real-world problem solving.
+</p>
+</div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<div class="container">
+<h2 class="text-center mb-4">About Me</h2>
+<div class="card p-4 small-card text-center">
+<p>
+I am a passionate <b>Final Year BCA student</b> interested in  
+<b>web development, UI/UX design, and intelligent applications</b>.  
+I enjoy building clean and responsive websites with strong visual appeal.  
+With a creative mindset and analytical thinking,  
+I focus on solving real-world problems using technology.  
+My aim is to grow as a skilled developer  
+and contribute to impactful digital solutions.
+</p>
+</div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<div class="container">
+<h2 class="text-center mb-4">Skills</h2>
+<div class="row g-3 justify-content-center">
+<div class="col-md-4"><div class="skill-card" style="background:#ffe6e6">HTML</div></div>
+<div class="col-md-4"><div class="skill-card" style="background:#e6f0ff">CSS</div></div>
+<div class="col-md-4"><div class="skill-card" style="background:#fff3cd">JavaScript</div></div>
+<div class="col-md-4"><div class="skill-card" style="background:#e8f9f1">Data Science</div></div>
+<div class="col-md-4"><div class="skill-card" style="background:#f3e8ff">UI / UX Design</div></div>
+<div class="col-md-4"><div class="skill-card" style="background:#e7f1ff">Web Development</div></div>
+</div>
+</div>
+</section>
+
+<!-- CERTIFICATION -->
+<section id="certification">
+<div class="container">
+<h2 class="text-center mb-4">Certifications</h2>
+
+<div class="small-card">
+<div class="cert-card" style="background:#fff0f5"> <b>NPTEL:</b> Developing Soft Skills & Personality</div>
+<div class="cert-card" style="background:#eef6ff"> <b>Microsoft:</b> Fundamentals of Web & Digital Technologies</div>
+<div class="cert-card" style="background:#f0fff4"> <b>Cisco:</b> Advanced C++ Programming (Completed)</div>
+<div class="cert-card" style="background:#fef6e4"> <b>IBM SkillBuild & Magic Bus:</b> Fundamentals of Artificial Intelligence</div>
+<div class="cert-card" style="background:#f3f0ff"> <b>IBM SkillBuild & Magic Bus:</b> Cyber Security Fundamentals</div>
+</div>
+
+</div>
+</section>
+
+<!-- PROJECT -->
+<section id="projects">
+<div class="container">
+<h2 class="text-center mb-4">Featured Project</h2>
+
+<div class="card p-4 small-card">
+<h4 class="text-danger">
+Sign Language Recognition using Flask & NLP
+</h4>
+
+<p>
+<b>Sign Language</b> is a visual language that uses hand gestures,  
+finger movements, and facial expressions to communicate,  
+mainly used by hearing-impaired individuals.
+</p>
+
+<p>
+This project recognizes hand gestures and converts them into readable text  
+to bridge the communication gap between hearing-impaired users  
+and the digital world.
+</p>
+
+<h6 class="mt-3">Technologies Used & Purpose</h6>
+<ul>
+<li><b>Python:</b> Core programming language used for gesture recognition logic.</li>
+<li><b>OpenCV:</b> Captures and processes real-time hand gesture images.</li>
+<li><b>NLP:</b> Converts recognized gestures into meaningful text.</li>
+<li><b>Flask:</b> Connects backend processing with a simple web interface.</li>
+</ul>
+
+<div class="mt-2">
+<span class="tech-badge">Python</span>
+<span class="tech-badge">OpenCV</span>
+<span class="tech-badge">NLP</span>
+<span class="tech-badge">Flask</span>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- HOBBIES -->
+<section id="hobbies">
+<div class="container">
+<h2 class="text-center mb-4">Hobbies</h2>
+<div class="card p-4 small-card text-center">
+<p> Drawing & Digital Art</p>
+<p> Reading Tech Blogs</p>
+<p> Problem Solving</p>
+<p> Graphic Designing</p>
+<p> Listening to Music</p>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<div class="container text-center">
+<h2 class="mb-4">Contact</h2>
+<div class="card p-4 small-card">
+<p> India</p>
+<p> +91 7550786521</p>
+<p> jayasrid2006@gmail.com</p>
+<p> Open to internships & full-time opportunities</p>
+
+<a href="https://www.linkedin.com/in/d-jayasri-45a954343" target="_blank"
+class="btn btn-danger btn-sm mt-2">Connect on LinkedIn</a>
+</div>
+</div>
+</section>
+
+<footer>© 2025 Jayasri D | All Rights Reserved</footer>
+
+</body>
+</html>
+
